@@ -1,0 +1,51 @@
+<EditText
+        android:id="@+id/edt_"
+        
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:hint="Enter you 1st name"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        />
+    
+    <EditText
+        android:id="@+id/edt_"
+        
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edt_"
+        android:hint="enter your last name"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        />
+
+_____________________________________________________________________________________________________
+
+<Button
+        android:id="@+id/btn_"
+        
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edt_lastName"
+        
+        android:layout_centerInParent="true"
+        android:text=""
+        />
+
+________________________________________________________________________________________
+
+TextView
+        android:id="@+id/txt_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Result will be shown in here"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        />
+
+______________________________________________________________________________________________________
