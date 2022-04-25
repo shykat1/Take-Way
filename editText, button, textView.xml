@@ -35,7 +35,7 @@ ________________________________________________________________________________
 
 ________________________________________________________________________________________
 
-TextView
+<TextView
         android:id="@+id/txt_result"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
